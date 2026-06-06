@@ -1,0 +1,98 @@
+:root {
+  /* Brand */
+  --client-branding-color: #3557ff;
+
+  /* Semantic colors */
+  --color-action-primary: var(--client-branding-color);
+  --color-text-primary: #1f2933;
+  --color-text-secondary: #52616b;
+  --color-background: #fafafa;
+  --color-surface: #ffffff;
+  --color-muted: rgba(0, 0, 0, 0.54);
+  --color-border: rgba(0, 0, 0, 0.12);
+  --color-success: #1a6500;
+  --color-warning: #ffbf3f;
+  --color-error: #b00020;
+  --color-info: #0288d1;
+  --color-default-health: #00589D;
+  --color-exercise: #6467D9;
+  --color-stress: #007CB6;
+  --color-nutrition: #AE2573;
+  --color-sleep: #3D62C5;
+  --color-weight: #007EA2;
+  --color-hypertension: #2473D4;
+  --color-cholesterol: #CE2955;
+  --color-diabetes: #D1414E;
+  --color-heart-health: #068266;
+
+
+  /* Typography */
+  --font-family: "Lato", Helvetica, Arial, sans-serif;
+  --type-h1-size: 48px;
+  --type-h1-weight: 300;
+  --type-h2-size: 36px;
+  --type-h3-size: 28px;
+  --type-h4-size: 22px;
+  --type-h5-size: 20px;
+  --type-h6-size: 18px;
+  --type-body1-size: 16px;
+  --type-body2-size: 14px;
+  --type-button-size: 16px;
+  --type-button-weight: 700;
+  --type-caption-size: 12px;
+  --type-overline-size: 12px;
+
+  /* Semantic typography */
+  --type-header-title: var(--type-h1-size);
+
+  /* Base spacing */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+
+  /* Semantic spacing */
+  --space-section-gap: var(--space-5);
+  /* Content region inset (HeroSection.Content, PageSection, Footer). Not for tab bars. */
+  --space-section-padding-desktop: var(--space-3);
+  --space-section-padding-mobile: var(--space-2);
+  --space-content-gap: var(--space-1);
+  --space-component-gap: var(--space-2);
+  --space-inline-gap: var(--space-2);
+  --space-card-padding: var(--space-2);
+
+  /* Radius */
+  --borderRadius: 4px;
+
+  /* Borders */
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
+
+  /* Box shadows */
+  --box-shadow-1:
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 2px rgba(0, 0, 0, 0.24);
+  --box-shadow-2:
+    0px 3px 6px rgba(0, 0, 0, 0.16),
+    0px 3px 6px rgba(0, 0, 0, 0.23);
+  --box-shadow-3:
+    0px 10px 20px rgba(0, 0, 0, 0.19),
+    0px 6px 6px rgba(0, 0, 0, 0.23);
+  --box-shadow-4:
+    0px 14px 28px rgba(0, 0, 0, 0.25),
+    0px 10px 10px rgba(0, 0, 0, 0.22);
+  --box-shadow-5:
+    0px 19px 38px rgba(0, 0, 0, 0.3),
+    0px 15px 12px rgba(0, 0, 0, 0.22);
+
+  /* Semantic box shadows */
+  --shadow-card: var(--box-shadow-1);
+  --shadow-dropdown: var(--box-shadow-2);
+  --shadow-tooltip: var(--box-shadow-2);
+  --shadow-modal: var(--box-shadow-5);
+
+  /* Layout */
+  --page-max-width: 997px;
+  --header-image-breakpoint: 899px;
+}
