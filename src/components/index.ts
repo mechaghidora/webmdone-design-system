@@ -12,6 +12,7 @@ export * from "./modal";
 export * from "./pagination";
 export * from "./paper";
 export * from "./progress";
+export * from "./select";
 export * from "./skeleton";
 export * from "./stepper";
 export * from "./tabs";

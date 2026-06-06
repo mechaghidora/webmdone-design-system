@@ -29,8 +29,8 @@ export const WithVerticalImage: Story = {
         title="With image"
         body="Image column on the right edge."
         withVerticalImage
-        imageSrc="/better-yourself-logo.png"
-        imageAlt=""
+        imageSrc="/kevin-mueller-s3HuF4LDeOc-unsplash.jpg"
+        imageAlt="Person in a wellness setting"
         showFooter
         ctaLabel="Learn more"
       />
