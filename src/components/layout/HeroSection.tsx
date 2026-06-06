@@ -1,6 +1,6 @@
 import Box, { type BoxProps } from "@mui/material/Box";
 
-import { heroDesktopBackgroundSx } from "@/styles/hero-background";
+import { heroDesktopBackgroundSx } from "../../../styles/hero-background";
 
 const sectionPadding = {
   xs: "var(--space-section-padding-mobile)",
@@ -22,15 +22,15 @@ function HeroSectionRoot({
   return (
     <Box
       component="section"
-      sx={{
-        position: "relative",
-        overflow: "hidden",
-        bgcolor: "var(--color-surface)",
-        ...(desktopIllustrationSrc
-          ? heroDesktopBackgroundSx(desktopIllustrationSrc)
-          : {}),
-        ...sx,
-      }}
+      sx={[
+        {
+          position: "relative",
+          overflow: "hidden",
+          bgcolor: "var(--color-surface)",
+        },
+        desktopIllustrationSrc ? heroDesktopBackgroundSx(desktopIllustrationSrc) : null,
+        ...(Array.isArray(sx) ? sx : sx ? [sx] : []),
+      ]}
       {...props}
     >
       {mobileIllustrationSrc ? (

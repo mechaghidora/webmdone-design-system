@@ -3,7 +3,7 @@
 import Stack from "@mui/material/Stack";
 import * as React from "react";
 
-import { Button } from "@/components/button";
+import { Button } from "../button";
 
 import { Modal } from "./Modal";
 
