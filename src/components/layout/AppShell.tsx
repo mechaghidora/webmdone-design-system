@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 
-import { AppBar } from "@/components/app-bar";
-import { Footer } from "@/components/footer";
+import { AppBar } from "../app-bar";
+import { Footer } from "../footer";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   return (

@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "incremental": false,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist"
+  },
+  "include": ["src/components/**/*.ts", "src/components/**/*.tsx", "styles/**/*.ts"],
+  "exclude": ["node_modules", "stories", "**/*.stories.tsx", "src/components/mui-demos"]
+}

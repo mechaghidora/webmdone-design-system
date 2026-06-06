@@ -3,7 +3,7 @@
 import Stack from "@mui/material/Stack";
 import * as React from "react";
 
-import { Typography } from "@/components/typography";
+import { Typography } from "../typography";
 
 import { BackNextPagination } from "./BackNextPagination";
 

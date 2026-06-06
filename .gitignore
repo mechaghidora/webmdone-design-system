@@ -9,6 +9,7 @@ out/
 
 # production
 build
+dist
 storybook-static
 
 # misc
@@ -16,6 +17,8 @@ storybook-static
 *.pem
 .env
 .env*.local
+.npmrc
+design-system.npmrc
 
 # debug
 npm-debug.log*

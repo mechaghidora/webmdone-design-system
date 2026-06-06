@@ -1,0 +1,3 @@
+# Copy to ~/.npmrc or your consumer app .npmrc (do not commit tokens)
+@mechaghidora:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GITHUB_PAT}

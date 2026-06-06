@@ -2,8 +2,8 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Stack from "@mui/material/Stack";
 
-import { Button } from "@/components/button";
-import { Typography } from "@/components/typography";
+import { Button } from "../button";
+import { Typography } from "../typography";
 
 export type BackNextPaginationProps = {
   /** Current page (1-based). */

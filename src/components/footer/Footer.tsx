@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 
-import { Link } from "@/components/link";
+import { Link } from "../link";
 
 const FOOTER_STACK_BREAKPOINT = "996px";
 

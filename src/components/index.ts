@@ -13,6 +13,7 @@ export * from "./pagination";
 export * from "./paper";
 export * from "./progress";
 export * from "./select";
+export * from "./selection-card";
 export * from "./skeleton";
 export * from "./stepper";
 export * from "./tabs";
